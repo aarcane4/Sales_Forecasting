@@ -7,11 +7,7 @@ This project focuses on predicting sales using machine learning techniques. It i
 ## Table of Contents
 1. [Project Overview](#project-overview)
 2. [Project Structure](#project-structure)
-3. [Setup Instructions](#setup-instructions)
-4. [Script Details](#script-details)
-5. [Results](#results)
-6. [Dependencies](#dependencies)
-7. [License](#license)
+   
 
 ---
 
@@ -24,6 +20,21 @@ The goal of this project is to predict sales (specifically, `UnitPrice`) using h
 4. **Model Evaluation**: Evaluate the model using Mean Squared Error (MSE) and R-squared (R²).
 5. **Feature Importance**: Visualize the importance of features in the model.
 
+## Project Structure
 
+Sales_Forecasting
 
-
+data
+- OnlineRetail.csv
+           
+scripts
+ - data_ingestion.py         
+ - preprocessing.py          
+ - train_model.py
+              
+outputs 
+  - preprocessed_data.pkl
+  - random_forest_model.pkl   
+ 
+visulization
+  - plot.py
